@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(0, 0%, 8%);
+}
+.image img{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    border-radius: 30px;
+}
+.boxcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(0, 0%, 12%);
+    height: 100%;
+    max-height: 480px;
+    width: 100%;
+    max-width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    border-style: none;
+}
+.boxcard .image img{
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    max-height: 70px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.boxcard .title p{
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 8px;
+}
+.boxcard .location p{
+    font-size: 10px;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 15px;
+}
+.boxcard .subtitle p{
+    font-size: 10px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+}
+.boxcard .box-links button{
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.boxcard .box-links button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
